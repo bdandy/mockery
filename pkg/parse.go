@@ -11,8 +11,9 @@ import (
 	"strings"
 
 	"github.com/rs/zerolog"
-	"github.com/vektra/mockery/v2/pkg/logging"
 	"golang.org/x/tools/go/packages"
+
+	"github.com/bdandy/mockery/v2/pkg/logging"
 )
 
 type parserEntry struct {

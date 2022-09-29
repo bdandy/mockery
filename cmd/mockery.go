@@ -16,11 +16,12 @@ import (
 	"github.com/rs/zerolog/log"
 	"github.com/spf13/cobra"
 	"github.com/spf13/viper"
-	"github.com/vektra/mockery/v2/pkg"
-	"github.com/vektra/mockery/v2/pkg/config"
-	"github.com/vektra/mockery/v2/pkg/logging"
 	"golang.org/x/crypto/ssh/terminal"
 	"golang.org/x/tools/go/packages"
+
+	"github.com/bdandy/mockery/v2/pkg"
+	"github.com/bdandy/mockery/v2/pkg/config"
+	"github.com/bdandy/mockery/v2/pkg/logging"
 )
 
 var (

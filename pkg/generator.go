@@ -19,9 +19,10 @@ import (
 	"unicode/utf8"
 
 	"github.com/rs/zerolog"
-	"github.com/vektra/mockery/v2/pkg/config"
-	"github.com/vektra/mockery/v2/pkg/logging"
 	"golang.org/x/tools/imports"
+
+	"github.com/bdandy/mockery/v2/pkg/config"
+	"github.com/bdandy/mockery/v2/pkg/logging"
 )
 
 const mockConstructorParamTypeNamePrefix = "mockConstructorTestingT"

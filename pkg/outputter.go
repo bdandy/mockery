@@ -10,8 +10,8 @@ import (
 
 	"github.com/rs/zerolog"
 
-	"github.com/vektra/mockery/v2/pkg/config"
-	"github.com/vektra/mockery/v2/pkg/logging"
+	"github.com/bdandy/mockery/v2/pkg/config"
+	"github.com/bdandy/mockery/v2/pkg/logging"
 )
 
 type Cleanup func() error
