@@ -1,4 +1,4 @@
-module github.com/vektra/mockery/v2
+module github.com/bdandy/mockery/v2
 
 go 1.18
 
@@ -9,6 +9,7 @@ require (
 	github.com/spf13/cobra v1.4.0
 	github.com/spf13/viper v1.12.0
 	github.com/stretchr/testify v1.7.2
+	github.com/vektra/mockery/v2 v2.0.0-00010101000000-000000000000
 	golang.org/x/crypto v0.0.0-20220525230936-793ad666bf5e
 	golang.org/x/tools v0.1.11
 	gopkg.in/yaml.v2 v2.4.0
@@ -39,3 +40,5 @@ require (
 	gopkg.in/ini.v1 v1.66.6 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
+
+replace github.com/vektra/mockery/v2 => ./
